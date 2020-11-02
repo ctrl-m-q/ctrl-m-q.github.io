@@ -1,6 +1,76 @@
 .main{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
+}
+
+.info{
+    padding-top: 10px;
+    font-style: italic;
+    color: teal;
+    
+}
+
+#like{
+    border: 0px;
+    width:50px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: blue;
+
+}
+
+footer{
+    padding: 20px 10px 0px 10px;
+    margin: 0px;
+    text-decoration: none;
+    justify-content: center;
+    background-color:rgb(182, 110, 182);
+
+}
+
+.footer-container{
+    width: 100%;
+    height: 10%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 30px;
+    justify-content: center;
+    
+}
+
+.D{
+    text-align: center;
+    color:whitesmoke;
+    font-style: italic;
+    
+
+}
+
+.Y {
+    text-align: center;
+    color:whitesmoke;
+    
+}
+
+.ig{
+    width: 30px;
+    height: auto;
+}
+
+.fb{
+    width: 30px;
+    height: auto;
+}
+
+.yt{
+    width: 30px;
+    height: auto;
+}
+
+.tw{
+    width: 30px;
+    height: auto;
 }
